@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <EditTextPreference
+        android:defaultValue="@string/defaultUrl"
+        android:key="default_url_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/defaultUrl"
+        android:title="@string/defaultUrlLabel" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="show_archived"
+        android:title="@string/show_archived_title" />
+
+    <!--<ListPreference-->
+        <!--android:defaultValue="1"-->
+        <!--android:entries="@array/languages_entries_array"-->
+        <!--android:entryValues="@array/languages_entry_array"-->
+        <!--android:key="language_preference"-->
+        <!--android:title="List preference" />-->
+
+</PreferenceScreen>

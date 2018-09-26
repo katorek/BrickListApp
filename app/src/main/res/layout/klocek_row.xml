@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"></TextView>
+
+    <TextView
+        android:id="@+id/qtyTextView"
+        android:layout_width="55dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/increaseButton"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/increaseButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/decreaseButton"
+        android:background="@android:color/holo_green_light"
+        android:elevation="0dp"
+        android:text="+"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/decreaseButton"
+        style="@android:style/Widget.DeviceDefault.Light.Button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_red_light"
+        android:text="-"
+        android:textSize="10sp" />
+
+</RelativeLayout>

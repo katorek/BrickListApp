@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BrickListApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_project">New project</string>
+    <string name="my_projects">My projects</string>
+    <string name="projectUrlLabel">Project adress</string>
+    <string name="downloadButton">Download</string>
+    <string name="downloadError">Wystąpił błąd podczas pobierania</string>
+    <string name="incorrectURL">Bad adress</string>
+    <string name="save_changes">Save changes</string>
+    <string name="discard_changes">Discard changes</string>
+    <string name="defaultUrl" translatable="false">http://fcds.cs.put.poznan.pl/MyWeb/BL/</string>
+    <string name="defaultUrlLabel">Default URL adress</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Example settings for Notifications -->
+
+    <string name="pref_header_general">General</string>
+    <string name="export_list">Export List</string>
+    <string name="export">Export to xml</string>
+    <string name="ask_open_file">Open file ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="archiveButton">Archive Project</string>
+    <string name="show_archived_title">Show archived projects</string>
+</resources>

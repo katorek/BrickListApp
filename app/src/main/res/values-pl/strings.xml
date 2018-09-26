@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Organizer Klocków</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="new_project">Nowy projekt</string>
+    <string name="my_projects">Moje projekty</string>
+    <string name="projectUrlLabel">Adres projektu</string>
+    <string name="downloadButton">Pobierz</string>
+    <string name="downloadError">Wystąpił błąd podczas pobierania</string>
+    <string name="incorrectURL">Niepoprawny adres</string>
+    <string name="save_changes">Zapisz zmiany</string>
+    <string name="discard_changes">Odrzuć zmiany</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="pref_header_general">Ogólne</string>
+    <string name="export_list">Eksportuj listę</string>
+    <string name="defaultUrlLabel">Domyślny adres URL</string>
+    <string name="export">Eksportuj do xmla</string>
+    <string name="ask_open_file">Open file ?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="archiveButton">Archive Project</string>
+    <string name="show_archived_title">Pokaz zarchiwizowane projekty</string>
+</resources>

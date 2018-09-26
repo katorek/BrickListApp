@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/defaultUrl"
+        android:key="edit_text_preference_1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/defaultUrlLabel" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/languages_entries_array"
+        android:entryValues="@array/languages_entry_array"
+        android:key="language_preference"
+        android:title="List preference" />
+</PreferenceScreen>
